@@ -5,9 +5,8 @@
     <classes>
       <class name="TestCases.MyQuoteTest">
         <methods>
-          <include name="selectUser"/>
-          <include name="setprop"/>
           <include name="loginBeforeTests"/>
+          <include name="setprop"/>
           <include name="close"/>
           <include name="selectRole"/>
         </methods>

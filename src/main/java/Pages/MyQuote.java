@@ -1,5 +1,7 @@
 package Pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -43,19 +45,23 @@ public class MyQuote extends Testbase {
 	WebElement CustomerNameSort;
 	WebElement QuoteAmountSort;
 
+	
+	// Web element lists
+	public List <WebElement> cols;
+	public List <WebElement> rows;
+	public WebElement[][] tableData;
+	
 	// initiate page object
 	public MyQuote() {
 		PageFactory.initElements(driver, this); // this means current class object and driver is coming from base class
 	}
 
 	public void initPageElements() {
-		if(driver == null) {
-			System.out.println("driver obj is null");
-		}
-		Show10Rows = driver.findElements(By.className("dt-buttons")).get(0);
-		Excel = driver.findElements(By.className("dt-buttons")).get(1);
-		PDF = driver.findElements(By.className("dt-buttons")).get(2);
-		CSV = driver.findElements(By.className("dt-buttons")).get(3);
+		
+		Show10Rows = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(0);
+		Excel = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(1);
+		PDF = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(2);
+		CSV = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(3);
 
 		EmployeeNameSort = driver.findElements(By.className("sorting")).get(0);
 		DesignationSort = driver.findElements(By.className("sorting")).get(1);
@@ -63,6 +69,33 @@ public class MyQuote extends Testbase {
 		DateOfQuoteSort = driver.findElements(By.className("sorting")).get(3);
 		CustomerNameSort = driver.findElements(By.className("sorting")).get(4);
 		QuoteAmountSort = driver.findElements(By.className("sorting")).get(5);
+	}
+	
+	
+	// Returns false if there was no data available and true if it found data and populated the tableData array
+	public Boolean initTableElements() {
+		cols = driver.findElements(By.xpath(".//*[@id=\"commissionTable\"]/thead/tr/th"));
+        System.out.println("No of cols are : " + cols.size()); 
+        //No.of rows 
+        rows = driver.findElements(By.xpath(".//*[@id='commissionTable']/tbody/tr/td[1]")); 
+        System.out.println("No of rows are : " + rows.size());
+        System.out.println(rows.get(0).getText());
+        if(rows.size() > 1 || !rows.get(0).getText().equals("No data available in table") ) {
+        
+	        tableData = new WebElement[cols.size()][rows.size()];
+	        
+	        for(int i = 0; i < cols.size(); i++) {
+	        	for(int j = 0; j < rows.size(); j++) {
+	        		
+	        		tableData[i][j] = driver.findElement(By.xpath(".//*[@id='commissionTable']/tbody/tr["+ (j + 1) +"]/td[" + (i + 1) + "]")); 
+	        		
+	        	}
+	        }
+	        return true;
+        } else {
+        	System.out.println("No data was found in the table");
+        	return false;
+        }
 	}
 
 	public String validatetitleContact() {
