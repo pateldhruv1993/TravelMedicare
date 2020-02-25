@@ -5,10 +5,17 @@
     <classes>
       <class name="TestCases.MyQuoteTest">
         <methods>
+          <include name="quoteAmountDesending"/>
           <include name="loginBeforeTests"/>
           <include name="setprop"/>
           <include name="close"/>
-          <include name="selectRole"/>
+          <include name="dateOfQuoteAssending"/>
+          <include name="dateOfQuoteDesending"/>
+          <include name="quoteNoAssending"/>
+          <include name="customerNameAssending"/>
+          <include name="quoteAmountAssending"/>
+          <include name="quoteNoDesending"/>
+          <include name="customerNameDesending"/>
         </methods>
       </class> <!-- TestCases.MyQuoteTest -->
     </classes>

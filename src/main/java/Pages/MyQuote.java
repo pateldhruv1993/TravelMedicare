@@ -25,7 +25,7 @@ public class MyQuote extends Testbase {
 	WebElement Submit;
 	@FindBy(xpath = "//button[text()='Reset']")
 	WebElement Reset;
-	@FindBy(xpath = "//button[@type='search']")
+	@FindBy(xpath = "//input[@type='search']")
 	WebElement Search;
 	@FindBy(linkText = "Previous")
 	WebElement Previous;
@@ -57,7 +57,7 @@ public class MyQuote extends Testbase {
 	}
 
 	public void initPageElements() {
-		
+
 		Show10Rows = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(0);
 		Excel = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(1);
 		PDF = driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(2);
@@ -69,6 +69,7 @@ public class MyQuote extends Testbase {
 		DateOfQuoteSort = driver.findElements(By.className("sorting")).get(3);
 		CustomerNameSort = driver.findElements(By.className("sorting")).get(4);
 		QuoteAmountSort = driver.findElements(By.className("sorting")).get(5);
+		
 	}
 	
 	
@@ -129,19 +130,19 @@ public class MyQuote extends Testbase {
 	}
 
 	public void show10Rows() {
-		Show10Rows.click();
+		driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(0).click();
 	}
 
 	public void excel() {
-		Excel.click();
+		driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(1).click();
 	}
 
 	public void pdf() {
-		PDF.click();
+		driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(2).click();
 	}
 
 	public void csv() {
-		CSV.click();
+		driver.findElement(By.className("dt-buttons")).findElements(By.className("dt-button")).get(3).click();
 	}
 
 	public void search(String search) {
@@ -150,26 +151,27 @@ public class MyQuote extends Testbase {
 	}
 
 	public void employeeNameSort() {
-		EmployeeNameSort.click();
+		driver.findElements(By.className("sorting")).get(0).click();
 	}
 
 	public void designationSort() {
-		DesignationSort.click();
+		driver.findElements(By.className("sorting")).get(1).click();
 	}
 
 	public void quotationNoSort() {
-		QuotationNoSort.click();
+		driver.findElements(By.className("sorting")).get(2).click();
 	}
 
 	public void dateOfQuoteSort() {
-		DateOfQuoteSort.click();
+		driver.findElements(By.className("sorting")).get(3).click();
 	}
 
 	public void customerNameSort() {
-		CustomerNameSort.click();
+		driver.findElements(By.className("sorting")).get(4).click();
 	}
 
 	public void quoteAmountSort() {
-		QuoteAmountSort.click();
+		driver.findElements(By.className("sorting")).get(5).click();
 	}
+	
 }
