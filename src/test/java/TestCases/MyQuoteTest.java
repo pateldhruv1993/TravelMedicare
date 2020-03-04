@@ -125,7 +125,7 @@ public class MyQuoteTest extends MyQuote {
 	 * 
 	 * } } }
 	 
-	*/
+	
 	
 	// TODO: Not working
 	@Test(priority = 7)
@@ -143,6 +143,8 @@ public class MyQuoteTest extends MyQuote {
 		Quote.csv();
 	}
 
+	
+	
 	@Test(priority = 10)
 	public void show10Rows() {
 		Quote.show10Rows();
@@ -179,7 +181,7 @@ public class MyQuoteTest extends MyQuote {
 	public void quoteNoDesending() {
 		Quote.quotationNoSort();
 		Quote.quotationNoSort();
-	}
+	}*/
 	
 	@Test(priority = 17)
 	public void dateOfQuoteAssending() {

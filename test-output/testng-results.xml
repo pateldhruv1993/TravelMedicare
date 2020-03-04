@@ -1,413 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="16" passed="8" failed="0" skipped="8">
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-18T23:03:39Z" name="Default suite" finished-at="2020-02-18T23:08:09Z" duration-ms="270433">
+  <suite started-at="2020-03-04T05:06:34Z" name="Default suite" finished-at="2020-03-04T05:10:43Z" duration-ms="248947">
     <groups>
     </groups>
-    <test started-at="2020-02-18T23:03:39Z" name="Default test" finished-at="2020-02-18T23:08:09Z" duration-ms="270433">
+    <test started-at="2020-03-04T05:06:34Z" name="Default test" finished-at="2020-03-04T05:10:43Z" duration-ms="248947">
       <class name="TestCases.MyQuoteTest">
-        <test-method is-config="true" signature="loginBeforeTests()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:03:39Z" name="loginBeforeTests" finished-at="2020-02-18T23:03:39Z" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="loginBeforeTests()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:06:34Z" name="loginBeforeTests" finished-at="2020-03-04T05:06:34Z" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginBeforeTests -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:03:39Z" name="setprop" finished-at="2020-02-18T23:04:13Z" duration-ms="34055" status="PASS">
+        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:06:34Z" name="setprop" finished-at="2020-03-04T05:07:21Z" duration-ms="47101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setprop -->
-        <test-method signature="downloadDataInExcelFile()[pri:7, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:04:13Z" name="downloadDataInExcelFile" finished-at="2020-02-18T23:04:14Z" duration-ms="1181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadDataInExcelFile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:04:14Z" name="close" finished-at="2020-02-18T23:04:14Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:04:14Z" name="setprop" finished-at="2020-02-18T23:04:41Z" duration-ms="26703" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="downloadDataInPDFFile()[pri:8, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:04:41Z" name="downloadDataInPDFFile" finished-at="2020-02-18T23:04:43Z" duration-ms="2228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadDataInPDFFile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:04:43Z" name="close" finished-at="2020-02-18T23:04:43Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:04:43Z" name="setprop" finished-at="2020-02-18T23:05:10Z" duration-ms="26933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="downloadDataInCSVFile()[pri:9, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:05:10Z" name="downloadDataInCSVFile" finished-at="2020-02-18T23:05:11Z" duration-ms="944" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadDataInCSVFile -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:05:11Z" name="close" finished-at="2020-02-18T23:05:11Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:05:11Z" name="setprop" finished-at="2020-02-18T23:05:40Z" duration-ms="28711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="show10Rows()[pri:10, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:05:40Z" name="show10Rows" finished-at="2020-02-18T23:05:41Z" duration-ms="1110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- show10Rows -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:05:41Z" name="close" finished-at="2020-02-18T23:05:41Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:05:41Z" name="setprop" finished-at="2020-02-18T23:06:13Z" duration-ms="32157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="employeeNameAssending()[pri:11, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:06:13Z" name="employeeNameAssending" finished-at="2020-02-18T23:06:14Z" duration-ms="628" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeNameAssending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:06:14Z" name="close" finished-at="2020-02-18T23:06:14Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:06:14Z" name="setprop" finished-at="2020-02-18T23:06:41Z" duration-ms="27320" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="employeeNameDesending()[pri:12, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:06:41Z" name="employeeNameDesending" finished-at="2020-02-18T23:06:42Z" duration-ms="995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- employeeNameDesending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:06:42Z" name="close" finished-at="2020-02-18T23:06:42Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:06:42Z" name="setprop" finished-at="2020-02-18T23:07:12Z" duration-ms="29353" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="designationAssending()[pri:13, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:07:12Z" name="designationAssending" finished-at="2020-02-18T23:07:12Z" duration-ms="602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- designationAssending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:07:12Z" name="close" finished-at="2020-02-18T23:07:12Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:07:12Z" name="setprop" finished-at="2020-02-18T23:07:41Z" duration-ms="28369" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="designationDesending()[pri:14, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:07:41Z" name="designationDesending" finished-at="2020-02-18T23:07:41Z" duration-ms="892" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- designationDesending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:07:41Z" name="close" finished-at="2020-02-18T23:07:41Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:07:41Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="27178" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="quoteNoAssending()[pri:15, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="quoteNoAssending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quoteNoAssending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="quoteNoDesending()[pri:16, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="quoteNoDesending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quoteNoDesending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setprop -->
-        <test-method signature="dateOfQuoteAssending()[pri:17, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="dateOfQuoteAssending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="dateOfQuoteAssending()[pri:17, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:07:21Z" name="dateOfQuoteAssending" finished-at="2020-03-04T05:07:22Z" duration-ms="1051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateOfQuoteAssending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:07:22Z" name="close" finished-at="2020-03-04T05:07:22Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:07:22Z" name="setprop" finished-at="2020-03-04T05:08:01Z" duration-ms="38885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setprop -->
-        <test-method signature="dateOfQuoteDesending()[pri:18, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="dateOfQuoteDesending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="dateOfQuoteDesending()[pri:18, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:08:01Z" name="dateOfQuoteDesending" finished-at="2020-03-04T05:08:01Z" duration-ms="281" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[Element <th class="sorting"> is not clickable at point (711,335) because another element <div class="dataTables_processing panel panel-default"> obscures it
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14136, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f4c34f0-12e9-40c9-9576-559205219280]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <th class="sorting"> is not clickable at point (711,335) because another element <div class="dataTables_processing panel panel-default"> obscures it
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14136, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8f4c34f0-12e9-40c9-9576-559205219280
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -419,18 +55,16 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at Pages.MyQuote.dateOfQuoteSort(MyQuote.java:166)
+at TestCases.MyQuoteTest.dateOfQuoteDesending(MyQuoteTest.java:193)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -452,277 +86,74 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dateOfQuoteDesending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:08:01Z" name="close" finished-at="2020-03-04T05:08:01Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:08:01Z" name="setprop" finished-at="2020-03-04T05:08:46Z" duration-ms="44239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setprop -->
-        <test-method signature="customerNameAssending()[pri:19, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="customerNameAssending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="customerNameAssending()[pri:19, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:08:46Z" name="customerNameAssending" finished-at="2020-03-04T05:08:47Z" duration-ms="830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerNameAssending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:08:47Z" name="close" finished-at="2020-03-04T05:08:47Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:08:47Z" name="setprop" finished-at="2020-03-04T05:09:27Z" duration-ms="40118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setprop -->
-        <test-method signature="customerNameDesending()[pri:20, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="customerNameDesending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="customerNameDesending()[pri:20, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:09:27Z" name="customerNameDesending" finished-at="2020-03-04T05:09:28Z" duration-ms="1205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerNameDesending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:09:28Z" name="close" finished-at="2020-03-04T05:09:28Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:09:28Z" name="setprop" finished-at="2020-03-04T05:10:15Z" duration-ms="47172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setprop -->
-        <test-method signature="quoteAmountAssending()[pri:21, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="quoteAmountAssending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="quoteAmountAssending()[pri:21, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:10:15Z" name="quoteAmountAssending" finished-at="2020-03-04T05:10:16Z" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteAmountAssending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:10:16Z" name="close" finished-at="2020-03-04T05:10:16Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="setprop" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setprop()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:10:16Z" name="setprop" finished-at="2020-03-04T05:10:42Z" duration-ms="26327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setprop -->
-        <test-method signature="quoteAmountDesending()[pri:22, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="quoteAmountDesending" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="quoteAmountDesending()[pri:22, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:10:42Z" name="quoteAmountDesending" finished-at="2020-03-04T05:10:43Z" duration-ms="670" status="FAIL">
+          <exception class="java.lang.IndexOutOfBoundsException">
             <message>
-              <![CDATA[Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803]]>
+              <![CDATA[Index 5 out of bounds for length 5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-U9OHJGK', ip: '192.168.2.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12656, moz:profile: C:\Users\DhruvPC\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 539ab506-22db-4563-9b9b-4f98b8a2a803
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
-at TestCases.MyQuoteTest.setprop(MyQuoteTest.java:47)
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 5
+at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+at java.base/java.util.Objects.checkIndex(Objects.java:373)
+at java.base/java.util.ArrayList.get(ArrayList.java:425)
+at Pages.MyQuote.quoteAmountSort(MyQuote.java:174)
+at TestCases.MyQuoteTest.quoteAmountDesending(MyQuoteTest.java:217)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
@@ -744,11 +175,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quoteAmountDesending -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@441772e]" started-at="2020-02-18T23:08:09Z" name="close" finished-at="2020-02-18T23:08:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCases.MyQuoteTest@40ef3420]" started-at="2020-03-04T05:10:43Z" name="close" finished-at="2020-03-04T05:10:43Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

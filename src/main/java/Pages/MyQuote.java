@@ -150,6 +150,8 @@ public class MyQuote extends Testbase {
 		Search.sendKeys(Keys.ENTER);
 	}
 
+	
+	// TODO: Fix all these sort xpath stuff below. as once you click on the header to sort it, its class name changes and you wont be able to click it again to make it decending order
 	public void employeeNameSort() {
 		driver.findElements(By.className("sorting")).get(0).click();
 	}
