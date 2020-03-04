@@ -172,6 +172,8 @@ public class MyQuote extends Testbase {
 		driver.findElements(By.className("sorting")).get(4).click();
 	}
 
+	
+	//TODO: the following element might not be clickable sometimes becauseof processing light box showing on top of it. use this to fix it: https://stackoverflow.com/questions/38327049/check-if-element-is-clickable-in-selenium-java
 	public void quoteAmountSort() {
 		driver.findElements(By.className("sorting")).get(5).click();
 	}
